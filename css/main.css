@@ -593,19 +593,23 @@ a {
   .icon-bars, .phone-icon {
     font-size: 20px;
   }
-  #navbar-check:checked ~ .site-navbar__list {
+  .site-navbar__list {
     width: 260px;
     height: 100vh;
     padding: 25px 0;
     padding-left: 30px;
     position: absolute;
     top: 44px;
-    left: 0px;
+    left: -100%;
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-items: flex-start;
     background: rgba(6, 15, 66, 0.8);
+    transition: all 0.6s;
+  }
+  #navbar-check:checked ~ .site-navbar__list {
+    left: 0;
   }
   #navbar-check:checked ~ .icon-bars {
     display: none;
