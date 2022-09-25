@@ -409,11 +409,25 @@ a {
   gap: 20px;
 }
 
+.mobile-line {
+  width: 80%;
+  margin-left: 0;
+  border-bottom: none;
+  background: #fff;
+}
+
+.site-navbar__item {
+  width: 100%;
+}
 .site-navbar__item .stie-navbar__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 12px;
   color: #F4F8FB;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .site-navbar__item .stie-navbar__link:hover {
   color: brown;
