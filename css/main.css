@@ -367,6 +367,7 @@ a {
   overflow: hidden;
 }
 
+/* Header */
 .site-header {
   position: fixed;
   width: 100%;
@@ -597,8 +598,8 @@ a {
   .site-navbar__list, .user-account__list, .logo-img__wrapper, .phone-number, .header__line, .header-list__commint-total {
     display: none;
   }
-  .list-item__search {
-    width: 30px;
+  .header__input {
+    display: inline;
   }
   .icon-close {
     display: none;
@@ -631,6 +632,14 @@ a {
   }
   #navbar-check:checked ~ .icon-close {
     display: block;
+  }
+}
+@media screen and (max-width: 550px) {
+  .list-item__search {
+    width: 30px;
+  }
+  .header__input {
+    display: none;
   }
 }
 @media screen and (max-width: 450px) {
