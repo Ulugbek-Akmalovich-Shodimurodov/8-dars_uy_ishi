@@ -367,8 +367,17 @@ a {
   overflow: hidden;
 }
 
+.site-header {
+  position: fixed;
+  width: 100%;
+}
+
 .header-box {
   background: #060F42;
+}
+
+.navbar-box {
+  background: #fff;
 }
 
 .site-navbar {
@@ -405,6 +414,9 @@ a {
   font-size: 14px;
   line-height: 12px;
   color: #F4F8FB;
+}
+.site-navbar__item .stie-navbar__link:hover {
+  color: brown;
 }
 
 .user-account__list {
@@ -444,10 +456,14 @@ a {
 }
 
 .header-list {
+  width: 100%;
+  padding: 10px 0;
+  margin: 0;
   display: flex;
   justify-content: space-between;
   gap: 20px;
   align-items: center;
+  background: #fff;
 }
 
 .site-logo {
@@ -569,6 +585,34 @@ a {
   }
   .list-item__search {
     width: 30px;
+  }
+  .icon-close {
+    display: none;
+    font-size: 26px;
+  }
+  .icon-bars, .phone-icon {
+    font-size: 20px;
+  }
+  #navbar-check:checked ~ .site-navbar__list {
+    width: 260px;
+    height: 100vh;
+    padding: 25px 0;
+    padding-left: 30px;
+    position: absolute;
+    top: 44px;
+    left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    background: rgba(6, 15, 66, 0.8);
+  }
+  #navbar-check:checked ~ .icon-bars {
+    display: none;
+    font-size: 26px;
+  }
+  #navbar-check:checked ~ .icon-close {
+    display: block;
   }
 }
 @media screen and (max-width: 450px) {
