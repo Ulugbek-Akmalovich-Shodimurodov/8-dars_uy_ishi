@@ -304,6 +304,9 @@
 
         overflow-y: auto;
     }
+    .site-navbar__list::-webkit-scrollbar{
+        width: 0;
+    }
     .site-navbar__item{
         width: 100%;
     }
@@ -360,5 +363,4 @@
         
     
     }
-    
 }
