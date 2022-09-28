@@ -914,6 +914,7 @@ a {
 }
 
 .prodajda-card__item {
+  z-index: -1;
   width: 210px;
   padding: 10px;
   text-align: center;
@@ -1019,7 +1020,7 @@ a {
     justify-content: center;
   }
   .prodajda-card__item {
-    width: 49%;
+    width: 40%;
     padding: 10px;
     text-align: center;
     box-shadow: -1px 4px 11px -1px rgba(34, 60, 80, 0.2);
