@@ -784,6 +784,10 @@ a {
   color: #FFFFFF;
 }
 
+.services-list::-webkit-scrollbar {
+  width: 0;
+}
+
 .services-list {
   width: 100%;
   padding: 20px 5px;
@@ -791,15 +795,11 @@ a {
   justify-content: space-between;
   align-items: center;
   gap: 50px;
-  overflow-x: auto;
-}
-
-.services-list::-webkit-scrollbar {
-  width: 0;
+  overflow-x: scroll;
 }
 
 .services-list__item {
-  width: 120px;
+  width: 180px;
   height: 130px;
   display: flex;
   flex-direction: column;
