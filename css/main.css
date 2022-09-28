@@ -1994,6 +1994,30 @@ a {
   gap: 3px;
 }
 
+.card__link-degree {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.card__degree-img {
+  width: 10px;
+  height: 10px;
+}
+
+.product__names {
+  flex-wrap: wrap;
+}
+
+.product__characteristics {
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px) {
+  .product__names-heading {
+    font-size: 26px;
+  }
+}
 @media screen and (max-width: 850px) {
   .product__wrapper {
     flex-wrap: wrap;
@@ -2013,6 +2037,9 @@ a {
   .product__wrapper-buy {
     width: 100%;
   }
+  .product__names-heading {
+    font-size: 22px;
+  }
 }
 @media screen and (max-width: 650px) {
   .product__charac-images {
@@ -2020,5 +2047,8 @@ a {
   }
   .product__charac-list {
     width: 100%;
+  }
+  .product__names-heading {
+    font-size: 16px;
   }
 }/*# sourceMappingURL=main.css.map */
