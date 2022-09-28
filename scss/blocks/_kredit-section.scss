@@ -21,6 +21,10 @@
 
     overflow-x: auto;
 }
+.kontract-list::-webkit-scrollbar
+{
+    width: 0;
+}
 
 .kontract-list__title{
     margin: 0;

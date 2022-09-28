@@ -778,10 +778,12 @@ a {
 }
 
 .services-list {
+  width: 100%;
+  padding: 20px 5px;
   display: flex;
-  gap: 80px;
+  justify-content: space-between;
   align-items: center;
-  justify-content: space-evenly;
+  gap: 50px;
   overflow-x: auto;
 }
 
@@ -790,7 +792,8 @@ a {
 }
 
 .services-list__item {
-  width: 80px;
+  width: 120px;
+  height: 130px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -886,6 +889,129 @@ a {
     line-height: 2px;
   }
 }
+.prodajda {
+  width: 100%;
+}
+
+.section-box {
+  width: 100%;
+}
+
+.section__title {
+  width: 100%;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32px;
+  color: #333333;
+}
+
+.prodajda-card__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.prodajda-card__item {
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: -1px 4px 11px -1px rgba(34, 60, 80, 0.2);
+  border-radius: 4px;
+}
+
+.card-head__box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-status {
+  width: 69px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #E93232;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: #FFFFFF;
+}
+
+.prodajda-card__item:hover {
+  box-shadow: -1px 2px 11px 5px rgba(34, 60, 80, 0.2);
+}
+
+.prodajda-card__item:hover .card-status {
+  display: flex;
+}
+
+.card-head__icon-box {
+  margin-left: auto;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  color: #01579B;
+}
+
+.card-icon:hover {
+  color: #E93232;
+}
+
+.card-body__box {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.card-title {
+  margin: 5px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: start;
+  color: #333333;
+}
+
+.card-stars__box {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  font-size: 11px;
+  line-height: 13px;
+  color: #999999;
+}
+
+.card-price__box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #060F42;
+}
+
+.purchase-page__link {
+  width: 73px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #06A56C;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  color: #F4F8FB;
+}
+
 .site-main {
   margin-top: 122px;
 }
@@ -910,6 +1036,10 @@ a {
   align-items: flex-start;
   gap: 50px;
   overflow-x: auto;
+}
+
+.kontract-list::-webkit-scrollbar {
+  width: 0;
 }
 
 .kontract-list__title {
