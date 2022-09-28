@@ -1,0 +1,132 @@
+
+.game-product{
+    z-index: -10;
+    width: 100%;
+    padding: 20px 0;
+
+    background-image: url(../../img/bg_img.png);
+    background-size: cover;
+
+
+}
+.game-section__title-box{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.game-product-section__line1{
+    display: inline-block;
+    width: 50px;
+    // width: 10%;
+    height: 2px;
+
+    background: #fff;
+
+    border-bottom: none;
+}
+.game-product-section__line{
+    display: inline-block;
+    width: 100%;
+    max-width: 1100px;
+    height: 2px;
+
+    background: #fff;
+
+    border-bottom: none;
+}
+.game-section__title{
+    // display: inline-block !important;
+    span{
+        display: block;
+        width: 250px;
+    }
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 10px;
+
+
+    color: #fff !important;
+}
+.prodajda-card__list{
+    z-index: 10;
+}
+.prodajda-card__item{
+    background: #fff;
+}
+.game-card__item:hover{
+    background:  #060F42;
+}
+.game-card__item:hover .card-price{
+    color: #fff;
+
+}
+.game-card__item:hover .game-card-title{
+    color: #fff;
+
+}
+.category-card__list{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.category-card__item{
+    text-align: center;
+
+}
+.category-card__img-box{
+    position: relative;
+
+    width: 180px;
+    height: 180px;
+
+    background: #fff;
+
+    border-radius: 50%;
+}
+
+.category-card__title{
+    font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+@media screen and(max-width:760px){
+    .game-product-section__line{
+        width: 70%;
+
+    }
+    
+}
+@media screen and(max-width:480px){
+    .game-product-section__line{
+        width: 20%;
+
+    }
+    .game-product-section__line1{
+        width: 20%;
+      
+    }
+    .game-section__title{
+        // display: inline-block !important;
+        span{
+            display: block;
+            width: auto;
+
+            font-size: 16px;
+        }}
+
+    
+}

@@ -1,6 +1,7 @@
 
 .prodajda{
     width: 100%;
+    padding: 20px 0;
 
 }
 .prodajda-container{
@@ -33,7 +34,7 @@
 }
 
 .prodajda-card__item{
-    z-index: -1;
+    // z-index: -1;
 
     width: 210px;
     padding: 10px;
@@ -212,7 +213,7 @@
     }
     
     .prodajda-card__item{
-        width: 100%;
+        width: 95%;
     
     }
     .card-head__icon-box{
