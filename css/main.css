@@ -914,7 +914,7 @@ a {
 }
 
 .prodajda-card__item {
-  width: 180px;
+  width: 210px;
   padding: 10px;
   text-align: center;
   box-shadow: -1px 4px 11px -1px rgba(34, 60, 80, 0.2);
@@ -1012,6 +1012,38 @@ a {
   color: #F4F8FB;
 }
 
+@media screen and (max-width: 400px) {
+  .prodajda-card__list {
+    width: 100%;
+    gap: 5px;
+    justify-content: center;
+  }
+  .prodajda-card__item {
+    width: 49%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: -1px 4px 11px -1px rgba(34, 60, 80, 0.2);
+    border-radius: 4px;
+  }
+  .card-head__icon-box {
+    font-size: 13px;
+  }
+  .card-title {
+    font-size: 11px;
+  }
+  .card-stars__box {
+    font-size: 9px;
+  }
+  .card-price__box {
+    font-size: 13px;
+  }
+  .purchase-page__link {
+    width: 65px;
+    height: 26px;
+    font-weight: 600;
+    font-size: 10px;
+  }
+}
 .site-main {
   margin-top: 122px;
 }
