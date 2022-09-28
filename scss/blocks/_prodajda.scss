@@ -3,6 +3,13 @@
     width: 100%;
 
 }
+.prodajda-container{
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+}
 .section-box{
     width: 100%;
 }
@@ -146,14 +153,23 @@
     color: #F4F8FB;
 }
 @media screen and(max-width:400px) {
+    .prodajda-container{
+        padding-left: 0px;
+        padding-right: 0px;
+}
+    
     .prodajda-card__list{
         width: 100%;
+        margin: 0;
         gap: 5px;
         justify-content: center;
     }
+    .star{
+        width: 7px;
+    }
     
     .prodajda-card__item{
-        width: 40%;
+        width: 49%;
         padding: 10px;
     
         text-align: center;
